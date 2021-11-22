@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> renders the <List /> if loading was successful 1`] = `
+<div
+  class="Home"
+>
+  <div
+    class="StudentsList card"
+  >
+    <div
+      class="card-body"
+    >
+      <button
+        class="btn btn-success btn-sm"
+        type="button"
+      >
+        Add Student
+      </button>
+      <table>
+        <tbody>
+          <tr>
+            <th>
+              First Name
+            </th>
+            <th>
+              Last Name
+            </th>
+            <th>
+              Date Of Birth
+            </th>
+            <th>
+              Course
+            </th>
+            <th>
+              Hours
+            </th>
+            <th>
+              Price
+            </th>
+            <th />
+            <th />
+          </tr>
+          <tr>
+            <td>
+              melek
+            </td>
+            <td>
+              mliki
+            </td>
+            <td>
+              26/02/1996
+            </td>
+            <td>
+              ReactJs
+            </td>
+            <td>
+              23
+            </td>
+            <td>
+              25
+            </td>
+            <td>
+               
+              <button
+                class="btn btn-outline-success btn-sm d-block w-100"
+                type="button"
+              >
+                Edit
+              </button>
+            </td>
+            <td>
+               
+              <button
+                class="btn btn-outline-success btn-sm d-block w-100"
+                type="button"
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+`;
